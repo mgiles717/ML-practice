@@ -50,6 +50,7 @@ class KNearestNeighbor:
     """
     def predict_all(self, x):
         return [self.predict(i) for i in x]
+
 def main():
     data = load_iris()
     # plt.plot(data.data, data.target)
